@@ -54,7 +54,7 @@ button, input[type=submit] {
 }
 
 input[type=text] {
-    width: 100%;
+    width: 350px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
