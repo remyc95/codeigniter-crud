@@ -1,0 +1,97 @@
+body{
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #A1D490;
+}
+
+#main_container {
+  display: table;
+  margin: 0 auto;
+  margin-top: 10vh;
+}
+
+table {
+  background-color: white;
+  border: solid 1px black;
+}
+
+th, td {
+  border: solid 1px black;
+
+}
+
+th, tr:nth-child(even) {
+  background-color: #f2f2f2
+  
+}
+
+h2 {
+  text-align: center;
+}
+
+.center_buttons {
+  text-align: center;
+}
+
+.white_bg{
+  background-color: white;
+  padding: 15px;
+  border: solid black 1px;
+}
+
+button, input[type=submit] {
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.center {
+  text-align: center;
+}
+
+.other_button {
+  background-color: #f4511e;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.create {
+  background-color: #00A80B;
+}
+
+.read {
+  background-color: #FF3333;
+}
+
+.update {
+  background-color: #FFB62E;
+
+}
+
+.delete {
+  background-color: #60A7F7;
+  
+}
+
+span {
+  padding-left: 5px;
+  padding-right: 5px;
+}
